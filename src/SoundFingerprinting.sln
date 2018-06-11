@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundFingerprinting.Tests", "SoundFingerprinting.Tests\SoundFingerprinting.Tests.csproj", "{987DA38D-5157-4D83-9B1D-83A0A62D0E94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundFingerprinting", "SoundFingerprinting\SoundFingerprinting.csproj", "{56EB1986-589C-4DA9-B961-5833BB4A7816}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73D53E1C-FB16-4B8C-8EAA-70E170228C51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3F844021-926C-4A34-8C6E-CF02E7801654}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundFingerprinting.Audio.NAudio", "SoundFingerprinting.Audio.NAudio\SoundFingerprinting.Audio.NAudio.csproj", "{73A3FEE8-13EE-4EEB-9DB2-E52A30C8467A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundFingerprinting.Audio.NAudio.Test", "SoundFingerprinting.Audio.NAudio.Test\SoundFingerprinting.Audio.NAudio.Test.csproj", "{AE1865DB-C8D2-48E8-BB00-551D9D858C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shazam", "Shazam\Shazam.csproj", "{CA89ABF4-F642-43EF-8404-1BEF88D3B24B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundFingerprinting.Audio.Bass", "..\..\..\temp\soundfingerprinting.audio.bass-develop\src\SoundFingerprinting.Audio.Bass\SoundFingerprinting.Audio.Bass.csproj", "{F7DFD877-368D-4C70-A0E6-08A38BD35554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineRadio.Core", "OnlineRadio.Core\OnlineRadio.Core.csproj", "{5CBFAA75-D27E-45CE-9063-793DED2225C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineRadio.Plugins.Audio", "OnlineRadio.Plugins.Audio\OnlineRadio.Plugins.Audio.csproj", "{810E32CA-D344-48BA-BFF2-ED89C46FDC66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{987DA38D-5157-4D83-9B1D-83A0A62D0E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987DA38D-5157-4D83-9B1D-83A0A62D0E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987DA38D-5157-4D83-9B1D-83A0A62D0E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987DA38D-5157-4D83-9B1D-83A0A62D0E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EB1986-589C-4DA9-B961-5833BB4A7816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EB1986-589C-4DA9-B961-5833BB4A7816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EB1986-589C-4DA9-B961-5833BB4A7816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EB1986-589C-4DA9-B961-5833BB4A7816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A3FEE8-13EE-4EEB-9DB2-E52A30C8467A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A3FEE8-13EE-4EEB-9DB2-E52A30C8467A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A3FEE8-13EE-4EEB-9DB2-E52A30C8467A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A3FEE8-13EE-4EEB-9DB2-E52A30C8467A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1865DB-C8D2-48E8-BB00-551D9D858C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1865DB-C8D2-48E8-BB00-551D9D858C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1865DB-C8D2-48E8-BB00-551D9D858C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1865DB-C8D2-48E8-BB00-551D9D858C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA89ABF4-F642-43EF-8404-1BEF88D3B24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA89ABF4-F642-43EF-8404-1BEF88D3B24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA89ABF4-F642-43EF-8404-1BEF88D3B24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA89ABF4-F642-43EF-8404-1BEF88D3B24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DFD877-368D-4C70-A0E6-08A38BD35554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DFD877-368D-4C70-A0E6-08A38BD35554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DFD877-368D-4C70-A0E6-08A38BD35554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DFD877-368D-4C70-A0E6-08A38BD35554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CBFAA75-D27E-45CE-9063-793DED2225C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBFAA75-D27E-45CE-9063-793DED2225C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBFAA75-D27E-45CE-9063-793DED2225C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBFAA75-D27E-45CE-9063-793DED2225C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810E32CA-D344-48BA-BFF2-ED89C46FDC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810E32CA-D344-48BA-BFF2-ED89C46FDC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810E32CA-D344-48BA-BFF2-ED89C46FDC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810E32CA-D344-48BA-BFF2-ED89C46FDC66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E1F2948-B514-451A-B2C1-9866C920E20F}
+	EndGlobalSection
+EndGlobal
